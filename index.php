@@ -1,4 +1,7 @@
 <?php
+
+hello world
+
 $row = 1;
 if (($handle = fopen("test.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
